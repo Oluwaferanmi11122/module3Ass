@@ -1,0 +1,92 @@
+
+
+   
+#header-nav{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand h1{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+}
+#invisible-nav {
+    /*background-color: white;*/
+    color: black;
+    text-align: center;
+    font-size: .8em;
+}
+#invisible-nav ul{
+    background-color: white;
+}
+#invisible-nav ul li{
+    border-bottom: 1px solid black;
+
+}
+
+h1.text-center{
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'Readex Pro', sans-serif;
+    color: brown;
+    text-shadow: 1px 1px 1px brown;
+}
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+a:hover{
+    text-decoration: none;
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+#section-1{
+    background-color: black;
+}
+#section-2{
+    background-color: black;
+}
+#section-3{
+    background-color: black;
+}
+h2.text-center{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+div h3{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Readex Pro', sans-serif;
+    color: chocolate;
+}
+div p{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    color: cornsilk;
+}
+@media (min-width:992px) {
+     .col-md-4{
+        width: 30%;
+     }
+}
+@media (min-width: 768px) and (max-width: 991px){
+   .col-sm-6{
+       width: 40%;
+       margin-left: 25px;
+       margin-right: 10px;
+       margin-bottom: 20px;
+   }
+}
+@media (max-width: 767px) {
+    .col-xs-12{
+        margin-bottom: 40px;
+    }
+}
